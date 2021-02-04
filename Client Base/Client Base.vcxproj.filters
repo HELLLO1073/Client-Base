@@ -134,6 +134,12 @@
     <ClInclude Include="Client\Modules\Instabreak.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Client\Hooks\LoopbackPacketSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes\LoopbackPacketSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

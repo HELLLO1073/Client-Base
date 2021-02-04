@@ -173,6 +173,7 @@
     <ClInclude Include="Client\Hooks\ClientInstance.h" />
     <ClInclude Include="Client\Hooks\GameMode.h" />
     <ClInclude Include="Client\Hooks\KeyItem.h" />
+    <ClInclude Include="Client\Hooks\LoopbackPacketSender.h" />
     <ClInclude Include="Client\Hooks\RenderContext.h" />
     <ClInclude Include="Client\Modules\AirJump.h" />
     <ClInclude Include="Client\Modules\AutoSprint.h" />
@@ -190,6 +191,7 @@
     <ClInclude Include="SDK\Classes\ClientInstance.h" />
     <ClInclude Include="SDK\Classes\GameMode.h" />
     <ClInclude Include="SDK\Classes\LocalPlayer.h" />
+    <ClInclude Include="SDK\Classes\LoopbackPacketSender.h" />
     <ClInclude Include="SDK\Classes\MinecraftUIRenderContext.h" />
     <ClInclude Include="SDK\Classes\MultiPlayerLevel.h" />
     <ClInclude Include="SDK\Classes\TextHolder.h" />

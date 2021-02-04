@@ -8,6 +8,7 @@ std::vector<std::string> ClientManager::Categories;
 #include "Hooks/ClientInstance.h"
 #include "Hooks/RenderContext.h"
 #include "Hooks/GameMode.h"
+#include "Hooks/LoopbackPacketSender.h"
 #include "Hooks/KeyItem.h"
 
 ClientInstance* Minecraft::CachedInstance = nullptr; //Resolve error on compile
@@ -20,6 +21,7 @@ void ClientManager::InitHooks() {
 		Hooks.push_back(new ClientInstance_Hook());
 		Hooks.push_back(new RenderContext());
 		Hooks.push_back(new GameMode_Hook());
+		Hooks.push_back(new LoopbackPacketSender_Hook());
 		Hooks.push_back(new KeyItem());
 	}
 

@@ -4,6 +4,7 @@
 #include "Actor.h"
 #include "LocalPlayer.h"
 #include "GameMode.h"
+#include "LoopbackPacketSender.h"
 
 class ClientInstance {
 public:
